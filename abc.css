@@ -1,0 +1,24 @@
+* {padding: 0px;margin: 0px;box-sizing: 0px;}
+      body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(ft5.jpg);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+      nav ul{list-style: none;float:right;
+    }
+      nav ul li{float:left; font-size: 20px; }
+      nav ul li a{color:black;padding:1rem .5rem;display:block;}
+      header {background: #ccc url('images/img2.jpg') no-repeat center center/cover;
+        color: black;text-align: center;height: 100vh;padding: 2rem;padding-top: 10rem; font-size: 20px;}
+      header h3
+      {font-size: 3rem; }
+      header p{margin:1rem 0}
+      .btn
+      {display: inline-block;text-decoration: none;color: #000;padding: .75rem 2rem;background-color: #fff;
+        border-radius: 30px ;
+      }
+      section{padding: 2rem;}
+      @media(max-height:500px){header
+        {padding-top: 9rem;}
+      }
